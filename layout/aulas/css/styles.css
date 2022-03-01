@@ -1,0 +1,58 @@
+
+/* XS*/
+h1 {
+    color: red
+}
+
+/* SM  >= 576px*/
+@media (min-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px){
+    h1{
+        color: green;
+    }
+}
+
+/* LG >= 992px*/
+@media (min-width: 992px){
+    h1{
+        color: purple;
+    }
+}
+
+/* XL > 1200px*/
+@media (min-width: 1200px){
+    h1{
+        color: gold;
+    }
+}
+
+/* XXL >1400px*/
+@media (min-width: 1400px){
+    h1{
+        color: skyblue;
+    }
+}
+
+/*Para mudar as propriedades de uma classe devemos acessa-las diretametne.
+Isso não altera as outras propriedades da classes*/
+.btn-primary{
+    background-color: red;
+}
+
+
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+
