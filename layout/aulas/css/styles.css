@@ -55,4 +55,35 @@ Isso não altera as outras propriedades da classes*/
     background-color: #888;
 }
 
+/*Container brakepoint*/
+
+.container-sm{
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md{
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg{
+    margin-bottom: 30px;
+    border: 2px solid chocolate; 
+}
+
+/* GRID */
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    
+}
 
